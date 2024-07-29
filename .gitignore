@@ -17,3 +17,5 @@
 
 REAME-old.md
 REAME-template.md
+node_modules
+package-lock.json

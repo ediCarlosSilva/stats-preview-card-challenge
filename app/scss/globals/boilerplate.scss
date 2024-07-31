@@ -1,0 +1,36 @@
+@use "../util/" as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-color);
+  font-family: var(--font-inter);
+  font-size: 15px;
+  margin: 0;
+  min-height: calc(100vh - 0.1px);
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.attribution {
+  margin-top: 0.5rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}

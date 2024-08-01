@@ -5,13 +5,21 @@
 The designs were created to the following widths:
 
 - Mobile: 375px
-  - width:
+  - width: 327px
 - Desktop: 1440px
-  - width:
+  - width: 1110px (left side 570)
 
 > 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
 
 ### BEM (Block, Element, Modifier)
+
+```
+- stats
+  - stats__image
+  - stats__headline
+  - stats__persuade
+  - stats__numbers
+```
 
 ## Colors
 
